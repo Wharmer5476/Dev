@@ -16,6 +16,12 @@
 		9F2E756113D451950058138E /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F2E755F13D451950058138E /* MainWindow.xib */; };
 		9F2E756413D451950058138E /* myMidiInterfaceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F2E756313D451950058138E /* myMidiInterfaceViewController.m */; };
 		9F2E756713D451950058138E /* myMidiInterfaceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F2E756513D451950058138E /* myMidiInterfaceViewController.xib */; };
+		9FE1D33E13D45D2000F092DB /* PGMidi.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9FE1D33913D45D2000F092DB /* PGMidi.mm */; };
+		9FE1D33F13D45D2000F092DB /* PGMidiAllSources.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9FE1D33B13D45D2000F092DB /* PGMidiAllSources.mm */; };
+		9FE1D34013D45D2000F092DB /* PGMidiFind.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9FE1D33D13D45D2000F092DB /* PGMidiFind.mm */; };
+		9FE1D34613D45D7B00F092DB /* MidiMonitorAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FE1D34313D45D7B00F092DB /* MidiMonitorAppDelegate.m */; };
+		9FE1D34713D45D7B00F092DB /* MidiMonitorViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9FE1D34513D45D7B00F092DB /* MidiMonitorViewController.mm */; };
+		9FE1D34A13D45DC500F092DB /* MIDIController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9FE1D34913D45DC500F092DB /* MIDIController.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +39,19 @@
 		9F2E756213D451950058138E /* myMidiInterfaceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = myMidiInterfaceViewController.h; sourceTree = "<group>"; };
 		9F2E756313D451950058138E /* myMidiInterfaceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = myMidiInterfaceViewController.m; sourceTree = "<group>"; };
 		9F2E756613D451950058138E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/myMidiInterfaceViewController.xib; sourceTree = "<group>"; };
+		9FE1D33713D45D2000F092DB /* iOSVersionDetection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iOSVersionDetection.h; sourceTree = "<group>"; };
+		9FE1D33813D45D2000F092DB /* PGMidi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGMidi.h; sourceTree = "<group>"; };
+		9FE1D33913D45D2000F092DB /* PGMidi.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PGMidi.mm; sourceTree = "<group>"; };
+		9FE1D33A13D45D2000F092DB /* PGMidiAllSources.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGMidiAllSources.h; sourceTree = "<group>"; };
+		9FE1D33B13D45D2000F092DB /* PGMidiAllSources.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PGMidiAllSources.mm; sourceTree = "<group>"; };
+		9FE1D33C13D45D2000F092DB /* PGMidiFind.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGMidiFind.h; sourceTree = "<group>"; };
+		9FE1D33D13D45D2000F092DB /* PGMidiFind.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PGMidiFind.mm; sourceTree = "<group>"; };
+		9FE1D34213D45D7B00F092DB /* MidiMonitorAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MidiMonitorAppDelegate.h; sourceTree = "<group>"; };
+		9FE1D34313D45D7B00F092DB /* MidiMonitorAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MidiMonitorAppDelegate.m; sourceTree = "<group>"; };
+		9FE1D34413D45D7B00F092DB /* MidiMonitorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MidiMonitorViewController.h; sourceTree = "<group>"; };
+		9FE1D34513D45D7B00F092DB /* MidiMonitorViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MidiMonitorViewController.mm; sourceTree = "<group>"; };
+		9FE1D34913D45DC500F092DB /* MIDIController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MIDIController.mm; sourceTree = "<group>"; };
+		9FE1D34B13D45DCF00F092DB /* MIDIController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIDIController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,12 +98,13 @@
 		9F2E755313D451940058138E /* myMidiInterface */ = {
 			isa = PBXGroup;
 			children = (
+				9FE1D34B13D45DCF00F092DB /* MIDIController.h */,
+				9FE1D34913D45DC500F092DB /* MIDIController.mm */,
 				9F2E755C13D451950058138E /* myMidiInterfaceAppDelegate.h */,
 				9F2E755D13D451950058138E /* myMidiInterfaceAppDelegate.m */,
-				9F2E755F13D451950058138E /* MainWindow.xib */,
-				9F2E756213D451950058138E /* myMidiInterfaceViewController.h */,
-				9F2E756313D451950058138E /* myMidiInterfaceViewController.m */,
-				9F2E756513D451950058138E /* myMidiInterfaceViewController.xib */,
+				9FE1D33613D45CE100F092DB /* Controller */,
+				9FE1D33313D45CCF00F092DB /* Model */,
+				9FE1D33513D45CDA00F092DB /* View */,
 				9F2E755413D451940058138E /* Supporting Files */,
 			);
 			path = myMidiInterface;
@@ -99,6 +119,58 @@
 				9F2E755A13D451950058138E /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9FE1D33313D45CCF00F092DB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9FE1D34113D45D2B00F092DB /* coreMIDI */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		9FE1D33513D45CDA00F092DB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9F2E756513D451950058138E /* myMidiInterfaceViewController.xib */,
+				9F2E755F13D451950058138E /* MainWindow.xib */,
+				9FE1D34813D45D8900F092DB /* PGMidi files */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		9FE1D33613D45CE100F092DB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9F2E756213D451950058138E /* myMidiInterfaceViewController.h */,
+				9F2E756313D451950058138E /* myMidiInterfaceViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		9FE1D34113D45D2B00F092DB /* coreMIDI */ = {
+			isa = PBXGroup;
+			children = (
+				9FE1D33713D45D2000F092DB /* iOSVersionDetection.h */,
+				9FE1D33813D45D2000F092DB /* PGMidi.h */,
+				9FE1D33913D45D2000F092DB /* PGMidi.mm */,
+				9FE1D33A13D45D2000F092DB /* PGMidiAllSources.h */,
+				9FE1D33B13D45D2000F092DB /* PGMidiAllSources.mm */,
+				9FE1D33C13D45D2000F092DB /* PGMidiFind.h */,
+				9FE1D33D13D45D2000F092DB /* PGMidiFind.mm */,
+			);
+			name = coreMIDI;
+			sourceTree = "<group>";
+		};
+		9FE1D34813D45D8900F092DB /* PGMidi files */ = {
+			isa = PBXGroup;
+			children = (
+				9FE1D34213D45D7B00F092DB /* MidiMonitorAppDelegate.h */,
+				9FE1D34313D45D7B00F092DB /* MidiMonitorAppDelegate.m */,
+				9FE1D34413D45D7B00F092DB /* MidiMonitorViewController.h */,
+				9FE1D34513D45D7B00F092DB /* MidiMonitorViewController.mm */,
+			);
+			name = "PGMidi files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,6 +239,12 @@
 				9F2E755B13D451950058138E /* main.m in Sources */,
 				9F2E755E13D451950058138E /* myMidiInterfaceAppDelegate.m in Sources */,
 				9F2E756413D451950058138E /* myMidiInterfaceViewController.m in Sources */,
+				9FE1D33E13D45D2000F092DB /* PGMidi.mm in Sources */,
+				9FE1D33F13D45D2000F092DB /* PGMidiAllSources.mm in Sources */,
+				9FE1D34013D45D2000F092DB /* PGMidiFind.mm in Sources */,
+				9FE1D34613D45D7B00F092DB /* MidiMonitorAppDelegate.m in Sources */,
+				9FE1D34713D45D7B00F092DB /* MidiMonitorViewController.mm in Sources */,
+				9FE1D34A13D45DC500F092DB /* MIDIController.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +359,7 @@
 				9F2E756C13D451950058138E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
