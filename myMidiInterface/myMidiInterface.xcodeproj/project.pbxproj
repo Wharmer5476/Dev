@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F2E754E13D451940058138E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F2E754D13D451940058138E /* UIKit.framework */; };
+		9F2E755013D451940058138E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F2E754F13D451940058138E /* Foundation.framework */; };
+		9F2E755213D451940058138E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F2E755113D451940058138E /* CoreGraphics.framework */; };
+		9F2E755813D451940058138E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9F2E755613D451940058138E /* InfoPlist.strings */; };
+		9F2E755B13D451950058138E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F2E755A13D451950058138E /* main.m */; };
+		9F2E755E13D451950058138E /* myMidiInterfaceAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F2E755D13D451950058138E /* myMidiInterfaceAppDelegate.m */; };
+		9F2E756113D451950058138E /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F2E755F13D451950058138E /* MainWindow.xib */; };
+		9F2E756413D451950058138E /* myMidiInterfaceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F2E756313D451950058138E /* myMidiInterfaceViewController.m */; };
+		9F2E756713D451950058138E /* myMidiInterfaceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F2E756513D451950058138E /* myMidiInterfaceViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9F2E754913D451940058138E /* myMidiInterface.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myMidiInterface.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F2E754D13D451940058138E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9F2E754F13D451940058138E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9F2E755113D451940058138E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9F2E755513D451940058138E /* myMidiInterface-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "myMidiInterface-Info.plist"; sourceTree = "<group>"; };
+		9F2E755713D451940058138E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9F2E755913D451950058138E /* myMidiInterface-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "myMidiInterface-Prefix.pch"; sourceTree = "<group>"; };
+		9F2E755A13D451950058138E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9F2E755C13D451950058138E /* myMidiInterfaceAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = myMidiInterfaceAppDelegate.h; sourceTree = "<group>"; };
+		9F2E755D13D451950058138E /* myMidiInterfaceAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = myMidiInterfaceAppDelegate.m; sourceTree = "<group>"; };
+		9F2E756013D451950058138E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		9F2E756213D451950058138E /* myMidiInterfaceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = myMidiInterfaceViewController.h; sourceTree = "<group>"; };
+		9F2E756313D451950058138E /* myMidiInterfaceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = myMidiInterfaceViewController.m; sourceTree = "<group>"; };
+		9F2E756613D451950058138E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/myMidiInterfaceViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F2E754613D451940058138E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F2E754E13D451940058138E /* UIKit.framework in Frameworks */,
+				9F2E755013D451940058138E /* Foundation.framework in Frameworks */,
+				9F2E755213D451940058138E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F2E753E13D451940058138E = {
+			isa = PBXGroup;
+			children = (
+				9F2E755313D451940058138E /* myMidiInterface */,
+				9F2E754C13D451940058138E /* Frameworks */,
+				9F2E754A13D451940058138E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9F2E754A13D451940058138E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F2E754913D451940058138E /* myMidiInterface.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F2E754C13D451940058138E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9F2E754D13D451940058138E /* UIKit.framework */,
+				9F2E754F13D451940058138E /* Foundation.framework */,
+				9F2E755113D451940058138E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9F2E755313D451940058138E /* myMidiInterface */ = {
+			isa = PBXGroup;
+			children = (
+				9F2E755C13D451950058138E /* myMidiInterfaceAppDelegate.h */,
+				9F2E755D13D451950058138E /* myMidiInterfaceAppDelegate.m */,
+				9F2E755F13D451950058138E /* MainWindow.xib */,
+				9F2E756213D451950058138E /* myMidiInterfaceViewController.h */,
+				9F2E756313D451950058138E /* myMidiInterfaceViewController.m */,
+				9F2E756513D451950058138E /* myMidiInterfaceViewController.xib */,
+				9F2E755413D451940058138E /* Supporting Files */,
+			);
+			path = myMidiInterface;
+			sourceTree = "<group>";
+		};
+		9F2E755413D451940058138E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9F2E755513D451940058138E /* myMidiInterface-Info.plist */,
+				9F2E755613D451940058138E /* InfoPlist.strings */,
+				9F2E755913D451950058138E /* myMidiInterface-Prefix.pch */,
+				9F2E755A13D451950058138E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F2E754813D451940058138E /* myMidiInterface */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F2E756A13D451950058138E /* Build configuration list for PBXNativeTarget "myMidiInterface" */;
+			buildPhases = (
+				9F2E754513D451940058138E /* Sources */,
+				9F2E754613D451940058138E /* Frameworks */,
+				9F2E754713D451940058138E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = myMidiInterface;
+			productName = myMidiInterface;
+			productReference = 9F2E754913D451940058138E /* myMidiInterface.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F2E754013D451940058138E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Cardiff Uni";
+			};
+			buildConfigurationList = 9F2E754313D451940058138E /* Build configuration list for PBXProject "myMidiInterface" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9F2E753E13D451940058138E;
+			productRefGroup = 9F2E754A13D451940058138E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F2E754813D451940058138E /* myMidiInterface */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F2E754713D451940058138E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F2E755813D451940058138E /* InfoPlist.strings in Resources */,
+				9F2E756113D451950058138E /* MainWindow.xib in Resources */,
+				9F2E756713D451950058138E /* myMidiInterfaceViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F2E754513D451940058138E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F2E755B13D451950058138E /* main.m in Sources */,
+				9F2E755E13D451950058138E /* myMidiInterfaceAppDelegate.m in Sources */,
+				9F2E756413D451950058138E /* myMidiInterfaceViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9F2E755613D451940058138E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F2E755713D451940058138E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9F2E755F13D451950058138E /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F2E756013D451950058138E /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		9F2E756513D451950058138E /* myMidiInterfaceViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F2E756613D451950058138E /* en */,
+			);
+			name = myMidiInterfaceViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9F2E756813D451950058138E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		9F2E756913D451950058138E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		9F2E756B13D451950058138E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "myMidiInterface/myMidiInterface-Prefix.pch";
+				INFOPLIST_FILE = "myMidiInterface/myMidiInterface-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9F2E756C13D451950058138E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "myMidiInterface/myMidiInterface-Prefix.pch";
+				INFOPLIST_FILE = "myMidiInterface/myMidiInterface-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F2E754313D451940058138E /* Build configuration list for PBXProject "myMidiInterface" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F2E756813D451950058138E /* Debug */,
+				9F2E756913D451950058138E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F2E756A13D451950058138E /* Build configuration list for PBXNativeTarget "myMidiInterface" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F2E756B13D451950058138E /* Debug */,
+				9F2E756C13D451950058138E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9F2E754013D451940058138E /* Project object */;
+}
