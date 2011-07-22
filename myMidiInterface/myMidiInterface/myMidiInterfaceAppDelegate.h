@@ -11,7 +11,7 @@
 @class myMidiInterfaceViewController;
 
 @interface myMidiInterfaceAppDelegate : NSObject <UIApplicationDelegate> {
-
+    myMidiInterfaceViewController *viewController;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;

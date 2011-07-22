@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DrawerViewController.h"
 
 @interface myMidiInterfaceViewController : UIViewController {
-    
+    UITabBarController *tabBarController;
+    DrawerViewController *drawerController;
 }
 
 @end

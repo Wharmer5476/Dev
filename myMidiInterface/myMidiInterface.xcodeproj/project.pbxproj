@@ -16,12 +16,23 @@
 		9F2E756113D451950058138E /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F2E755F13D451950058138E /* MainWindow.xib */; };
 		9F2E756413D451950058138E /* myMidiInterfaceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F2E756313D451950058138E /* myMidiInterfaceViewController.m */; };
 		9F2E756713D451950058138E /* myMidiInterfaceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F2E756513D451950058138E /* myMidiInterfaceViewController.xib */; };
+		9F86923F13D8BA4100BD7FE5 /* CoreMIDI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F86923E13D8BA4100BD7FE5 /* CoreMIDI.framework */; };
+		9F86924313D8BBC000BD7FE5 /* myMixerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F86924113D8BBC000BD7FE5 /* myMixerViewController.m */; };
+		9F86924413D8BBC000BD7FE5 /* myMixerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F86924213D8BBC000BD7FE5 /* myMixerViewController.xib */; };
+		9F86924813D8BC0A00BD7FE5 /* myXYPadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F86924613D8BC0A00BD7FE5 /* myXYPadViewController.m */; };
+		9F86924913D8BC0A00BD7FE5 /* myXYPadViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F86924713D8BC0A00BD7FE5 /* myXYPadViewController.xib */; };
+		9F86924D13D8BC2000BD7FE5 /* myFaceTrackerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F86924B13D8BC2000BD7FE5 /* myFaceTrackerViewController.m */; };
+		9F86924E13D8BC2000BD7FE5 /* myFaceTrackerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F86924C13D8BC2000BD7FE5 /* myFaceTrackerViewController.xib */; };
+		9F86925613D8D0EB00BD7FE5 /* DrawerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F86925413D8D0EA00BD7FE5 /* DrawerViewController.m */; };
+		9F86925713D8D0EB00BD7FE5 /* DrawerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F86925513D8D0EA00BD7FE5 /* DrawerViewController.xib */; };
+		9F86926F13D8E0E000BD7FE5 /* RoundedUIViewMask.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F86926E13D8E0E000BD7FE5 /* RoundedUIViewMask.m */; };
+		9F86927113D8E18200BD7FE5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F86927013D8E18200BD7FE5 /* QuartzCore.framework */; };
+		9F86928013D8F4B700BD7FE5 /* UIViewWithShadow.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F86927F13D8F4B700BD7FE5 /* UIViewWithShadow.m */; };
 		9FE1D33E13D45D2000F092DB /* PGMidi.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9FE1D33913D45D2000F092DB /* PGMidi.mm */; };
 		9FE1D33F13D45D2000F092DB /* PGMidiAllSources.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9FE1D33B13D45D2000F092DB /* PGMidiAllSources.mm */; };
 		9FE1D34013D45D2000F092DB /* PGMidiFind.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9FE1D33D13D45D2000F092DB /* PGMidiFind.mm */; };
 		9FE1D34613D45D7B00F092DB /* MidiMonitorAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FE1D34313D45D7B00F092DB /* MidiMonitorAppDelegate.m */; };
 		9FE1D34713D45D7B00F092DB /* MidiMonitorViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9FE1D34513D45D7B00F092DB /* MidiMonitorViewController.mm */; };
-		9FE1D34A13D45DC500F092DB /* MIDIController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9FE1D34913D45DC500F092DB /* MIDIController.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +50,24 @@
 		9F2E756213D451950058138E /* myMidiInterfaceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = myMidiInterfaceViewController.h; sourceTree = "<group>"; };
 		9F2E756313D451950058138E /* myMidiInterfaceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = myMidiInterfaceViewController.m; sourceTree = "<group>"; };
 		9F2E756613D451950058138E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/myMidiInterfaceViewController.xib; sourceTree = "<group>"; };
+		9F86923E13D8BA4100BD7FE5 /* CoreMIDI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMIDI.framework; path = System/Library/Frameworks/CoreMIDI.framework; sourceTree = SDKROOT; };
+		9F86924013D8BBC000BD7FE5 /* myMixerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myMixerViewController.h; sourceTree = "<group>"; };
+		9F86924113D8BBC000BD7FE5 /* myMixerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myMixerViewController.m; sourceTree = "<group>"; };
+		9F86924213D8BBC000BD7FE5 /* myMixerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = myMixerViewController.xib; sourceTree = "<group>"; };
+		9F86924513D8BC0A00BD7FE5 /* myXYPadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myXYPadViewController.h; sourceTree = "<group>"; };
+		9F86924613D8BC0A00BD7FE5 /* myXYPadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myXYPadViewController.m; sourceTree = "<group>"; };
+		9F86924713D8BC0A00BD7FE5 /* myXYPadViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = myXYPadViewController.xib; sourceTree = "<group>"; };
+		9F86924A13D8BC2000BD7FE5 /* myFaceTrackerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myFaceTrackerViewController.h; sourceTree = "<group>"; };
+		9F86924B13D8BC2000BD7FE5 /* myFaceTrackerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myFaceTrackerViewController.m; sourceTree = "<group>"; };
+		9F86924C13D8BC2000BD7FE5 /* myFaceTrackerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = myFaceTrackerViewController.xib; sourceTree = "<group>"; };
+		9F86925313D8D0E900BD7FE5 /* DrawerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawerViewController.h; sourceTree = "<group>"; };
+		9F86925413D8D0EA00BD7FE5 /* DrawerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawerViewController.m; sourceTree = "<group>"; };
+		9F86925513D8D0EA00BD7FE5 /* DrawerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DrawerViewController.xib; sourceTree = "<group>"; };
+		9F86926D13D8E0E000BD7FE5 /* RoundedUIViewMask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundedUIViewMask.h; sourceTree = "<group>"; };
+		9F86926E13D8E0E000BD7FE5 /* RoundedUIViewMask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoundedUIViewMask.m; sourceTree = "<group>"; };
+		9F86927013D8E18200BD7FE5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		9F86927E13D8F4B700BD7FE5 /* UIViewWithShadow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewWithShadow.h; sourceTree = "<group>"; };
+		9F86927F13D8F4B700BD7FE5 /* UIViewWithShadow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewWithShadow.m; sourceTree = "<group>"; };
 		9FE1D33713D45D2000F092DB /* iOSVersionDetection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iOSVersionDetection.h; sourceTree = "<group>"; };
 		9FE1D33813D45D2000F092DB /* PGMidi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGMidi.h; sourceTree = "<group>"; };
 		9FE1D33913D45D2000F092DB /* PGMidi.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PGMidi.mm; sourceTree = "<group>"; };
@@ -50,8 +79,6 @@
 		9FE1D34313D45D7B00F092DB /* MidiMonitorAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MidiMonitorAppDelegate.m; sourceTree = "<group>"; };
 		9FE1D34413D45D7B00F092DB /* MidiMonitorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MidiMonitorViewController.h; sourceTree = "<group>"; };
 		9FE1D34513D45D7B00F092DB /* MidiMonitorViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MidiMonitorViewController.mm; sourceTree = "<group>"; };
-		9FE1D34913D45DC500F092DB /* MIDIController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MIDIController.mm; sourceTree = "<group>"; };
-		9FE1D34B13D45DCF00F092DB /* MIDIController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIDIController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +86,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F86927113D8E18200BD7FE5 /* QuartzCore.framework in Frameworks */,
+				9F86923F13D8BA4100BD7FE5 /* CoreMIDI.framework in Frameworks */,
 				9F2E754E13D451940058138E /* UIKit.framework in Frameworks */,
 				9F2E755013D451940058138E /* Foundation.framework in Frameworks */,
 				9F2E755213D451940058138E /* CoreGraphics.framework in Frameworks */,
@@ -88,6 +117,8 @@
 		9F2E754C13D451940058138E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9F86927013D8E18200BD7FE5 /* QuartzCore.framework */,
+				9F86923E13D8BA4100BD7FE5 /* CoreMIDI.framework */,
 				9F2E754D13D451940058138E /* UIKit.framework */,
 				9F2E754F13D451940058138E /* Foundation.framework */,
 				9F2E755113D451940058138E /* CoreGraphics.framework */,
@@ -98,8 +129,6 @@
 		9F2E755313D451940058138E /* myMidiInterface */ = {
 			isa = PBXGroup;
 			children = (
-				9FE1D34B13D45DCF00F092DB /* MIDIController.h */,
-				9FE1D34913D45DC500F092DB /* MIDIController.mm */,
 				9F2E755C13D451950058138E /* myMidiInterfaceAppDelegate.h */,
 				9F2E755D13D451950058138E /* myMidiInterfaceAppDelegate.m */,
 				9FE1D33613D45CE100F092DB /* Controller */,
@@ -132,7 +161,10 @@
 		9FE1D33513D45CDA00F092DB /* View */ = {
 			isa = PBXGroup;
 			children = (
-				9F2E756513D451950058138E /* myMidiInterfaceViewController.xib */,
+				9F86927E13D8F4B700BD7FE5 /* UIViewWithShadow.h */,
+				9F86927F13D8F4B700BD7FE5 /* UIViewWithShadow.m */,
+				9F86926D13D8E0E000BD7FE5 /* RoundedUIViewMask.h */,
+				9F86926E13D8E0E000BD7FE5 /* RoundedUIViewMask.m */,
 				9F2E755F13D451950058138E /* MainWindow.xib */,
 				9FE1D34813D45D8900F092DB /* PGMidi files */,
 			);
@@ -144,6 +176,19 @@
 			children = (
 				9F2E756213D451950058138E /* myMidiInterfaceViewController.h */,
 				9F2E756313D451950058138E /* myMidiInterfaceViewController.m */,
+				9F2E756513D451950058138E /* myMidiInterfaceViewController.xib */,
+				9F86924013D8BBC000BD7FE5 /* myMixerViewController.h */,
+				9F86924113D8BBC000BD7FE5 /* myMixerViewController.m */,
+				9F86924213D8BBC000BD7FE5 /* myMixerViewController.xib */,
+				9F86924513D8BC0A00BD7FE5 /* myXYPadViewController.h */,
+				9F86924613D8BC0A00BD7FE5 /* myXYPadViewController.m */,
+				9F86924713D8BC0A00BD7FE5 /* myXYPadViewController.xib */,
+				9F86924A13D8BC2000BD7FE5 /* myFaceTrackerViewController.h */,
+				9F86924B13D8BC2000BD7FE5 /* myFaceTrackerViewController.m */,
+				9F86924C13D8BC2000BD7FE5 /* myFaceTrackerViewController.xib */,
+				9F86925313D8D0E900BD7FE5 /* DrawerViewController.h */,
+				9F86925413D8D0EA00BD7FE5 /* DrawerViewController.m */,
+				9F86925513D8D0EA00BD7FE5 /* DrawerViewController.xib */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -226,6 +271,10 @@
 				9F2E755813D451940058138E /* InfoPlist.strings in Resources */,
 				9F2E756113D451950058138E /* MainWindow.xib in Resources */,
 				9F2E756713D451950058138E /* myMidiInterfaceViewController.xib in Resources */,
+				9F86924413D8BBC000BD7FE5 /* myMixerViewController.xib in Resources */,
+				9F86924913D8BC0A00BD7FE5 /* myXYPadViewController.xib in Resources */,
+				9F86924E13D8BC2000BD7FE5 /* myFaceTrackerViewController.xib in Resources */,
+				9F86925713D8D0EB00BD7FE5 /* DrawerViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,7 +293,12 @@
 				9FE1D34013D45D2000F092DB /* PGMidiFind.mm in Sources */,
 				9FE1D34613D45D7B00F092DB /* MidiMonitorAppDelegate.m in Sources */,
 				9FE1D34713D45D7B00F092DB /* MidiMonitorViewController.mm in Sources */,
-				9FE1D34A13D45DC500F092DB /* MIDIController.mm in Sources */,
+				9F86924313D8BBC000BD7FE5 /* myMixerViewController.m in Sources */,
+				9F86924813D8BC0A00BD7FE5 /* myXYPadViewController.m in Sources */,
+				9F86924D13D8BC2000BD7FE5 /* myFaceTrackerViewController.m in Sources */,
+				9F86925613D8D0EB00BD7FE5 /* DrawerViewController.m in Sources */,
+				9F86926F13D8E0E000BD7FE5 /* RoundedUIViewMask.m in Sources */,
+				9F86928013D8F4B700BD7FE5 /* UIViewWithShadow.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
