@@ -7,10 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
-
+@class XYTouch;
 
 @interface myXYPadViewController : UIViewController {
-    
+    XYTouch *_xypad;
+    UILabel *_fingerText;
+    UISlider *_yFader;
+    UISlider *_xFader;
 }
+@property (nonatomic, retain) IBOutlet XYTouch *_xypad;
+@property (nonatomic, retain) IBOutlet UILabel *_fingerText;
+@property (nonatomic, retain) IBOutlet UISlider *_yFader;
+@property (nonatomic, retain) IBOutlet UISlider *_xFader;
 
 @end

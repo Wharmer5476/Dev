@@ -12,5 +12,6 @@
 @interface myMixerViewController : UIViewController {
     
 }
+@property (nonatomic, retain) IBOutlet UIScrollView *mixerPanel;
 
 @end

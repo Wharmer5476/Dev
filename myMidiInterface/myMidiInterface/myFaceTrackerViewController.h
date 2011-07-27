@@ -13,4 +13,7 @@
     
 }
 
+@property(nonatomic, retain) IBOutlet UIView *vImagePreview;
+
+
 @end

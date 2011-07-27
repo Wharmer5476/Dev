@@ -13,5 +13,6 @@
     UITabBarController *tabBarController;
     DrawerViewController *drawerController;
 }
+@property (nonatomic, retain) IBOutlet UIView *transportControl;
 
 @end
