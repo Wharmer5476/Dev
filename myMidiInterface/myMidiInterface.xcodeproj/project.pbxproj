@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9F170ABF13DF25C600495BFA /* MIDI.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F170ABE13DF25C600495BFA /* MIDI.m */; };
 		9F170ACA13DF709D00495BFA /* mixingDeskBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F170AC913DF709D00495BFA /* mixingDeskBackground.png */; };
 		9F170ACE13DF76FC00495BFA /* rotaryKnob.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F170ACC13DF76FC00495BFA /* rotaryKnob.png */; };
 		9F170AD013DF777A00495BFA /* rotarybackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F170ACF13DF777A00495BFA /* rotarybackground.png */; };
@@ -84,8 +83,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9F170ABD13DF25C600495BFA /* MIDI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIDI.h; sourceTree = "<group>"; };
-		9F170ABE13DF25C600495BFA /* MIDI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIDI.m; sourceTree = "<group>"; };
 		9F170AC913DF709D00495BFA /* mixingDeskBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mixingDeskBackground.png; sourceTree = "<group>"; };
 		9F170ACC13DF76FC00495BFA /* rotaryKnob.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rotaryKnob.png; sourceTree = "<group>"; };
 		9F170ACF13DF777A00495BFA /* rotarybackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rotarybackground.png; sourceTree = "<group>"; };
@@ -356,8 +353,6 @@
 			isa = PBXGroup;
 			children = (
 				9FE1D33713D45D2000F092DB /* iOSVersionDetection.h */,
-				9F170ABD13DF25C600495BFA /* MIDI.h */,
-				9F170ABE13DF25C600495BFA /* MIDI.m */,
 				9FE1D33813D45D2000F092DB /* PGMidi.h */,
 				9FE1D33913D45D2000F092DB /* PGMidi.mm */,
 				9FE1D33A13D45D2000F092DB /* PGMidiAllSources.h */,
@@ -504,7 +499,6 @@
 				9F86928013D8F4B700BD7FE5 /* UIViewWithShadow.m in Sources */,
 				9F988F7413DB11CE0033E6B0 /* MyChannelStrip.m in Sources */,
 				9F988F8313DB73C40033E6B0 /* XYTouch.m in Sources */,
-				9F170ABF13DF25C600495BFA /* MIDI.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

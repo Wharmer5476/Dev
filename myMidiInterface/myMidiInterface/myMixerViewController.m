@@ -44,10 +44,11 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    UIImage* anImage = [UIImage imageNamed:@"mixingDeskBackground.png"];
     mixerPanel.contentSize = CGSizeMake(0, 0);
     //CGFloat _xPoint = 0;
     MyChannelStrip *channel = [[MyChannelStrip alloc] initWithNibName:@"MyChannelStrip" bundle:nil];
+    
+    UIImage* anImage = [UIImage imageNamed:@"mixingDeskBackground.png"];
     channel.view.backgroundColor = [UIColor colorWithPatternImage:anImage];
     [mixerPanel addSubview:channel.view];
     [channel release];
